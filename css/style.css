@@ -121,4 +121,53 @@ body {
   width: auto;
 }
 
+@media only screen and (max-width: 400px) {
+  .p {
+    text-decoration: underline;
+  }
+
+  .navegador {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 5px;
+    text-shadow: 0 0 3px #5a5922;
+    position: fixed;
+    top: 0;
+  }
+
+  a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .entrada {
+    display: grid;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+  }
+
+  section {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 200px;
+  }
+
+  .footer {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .mapa {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+body{
+    background-color: darkcyan;
+}
+/* titulo de la pagina*/
+h1{
+    color: chartreuse;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 0 0 10px #251102;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*fin titulo de la pagina*/
+
+/* pequeño texto introudctorio a la reserva*/
+.navbar{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Inconsolata', monospace;
+    text-decoration: underline;
+    margin-left: 20px;
+
+}
+/* fin pequeño texto introudctorio a la reserva*/
+
+/* para poder centrar el formulario*/
+section{
+    display: grid;
+    justify-content: center;
+}
+/*fin para poder centrar el formulario*/
+
+/* para todo el form, lo hice para encolumnar la caja por dentro*/
+.general{ 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 15px;
+   
+  
+}
+/*fin para todo el form, lo hice para encolumnar la caja por dentro*/
+
+/*formulario por dentro*/
+form{
+    display: grid;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
+    background-color: mediumslateblue;
+    margin-top: 5px;
+    padding-top:30px;
+    font-family: cursive;
+    border-radius: 3px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+/* fin formulario por dentro*/
+
+/*para que no se peguen los cuadritos dentro del formulario con el texto*/
+.general-label{
+    margin-bottom: 20px;
+}
+
+
+.cuadro{
+    margin-top: 20px;
+}
+/*para que no se peguen los cuadritos dentro del formulario con el texto*/

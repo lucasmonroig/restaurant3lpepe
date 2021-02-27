@@ -21,6 +21,7 @@
         font-weight: bold;
         text-decoration: underline;
     }
+
     .entrada{
         
             display:grid;
@@ -32,6 +33,16 @@
        
 
     }
+    .boton-reservas{
+        display: grid;
+        align-items: center;
+        color: white;
+        margin-right: 500px;
+        width: 20%;
+        background-color: whitesmoke;
+ 
+ }
+ 
     section{
         display: grid;
         justify-content: center;
@@ -47,6 +58,24 @@
         justify-content: center;
         width:100%;
     }
+    .footer-first{
+        display: grid;
+        
+        padding-top: 20px;
+        padding-left: 20px;
+        justify-content: left;
+        width: 100%;
+     }
+     .footer-second{
+         display: grid;
+         justify-content: flex-end;
+         color: black;
+         padding-top: 20px;
+         padding-right: 20px;
+         padding-bottom: 20px;
+         width: 100%;
+        
+     }
     .mapa{
         margin: 0 auto;
         width: 50%;

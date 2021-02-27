@@ -1,0 +1,20 @@
+.navegador{
+    
+    display: flex;
+    background-color:#96c8a2;
+    width: 100%;
+    padding-top: 20px;
+    
+    justify-content: space-around;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 3px #5a5922;
+    position: fixed;
+    top:0;
+    z-index: 3;
+    &:hover{
+        font-weight: bold;
+        text-decoration: underline;
+        
+    }
+}

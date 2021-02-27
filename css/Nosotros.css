@@ -1,0 +1,63 @@
+body{
+background-color: darkolivegreen;
+
+}
+h1{
+    
+    color: chartreuse;
+    margin-left: 50px; /*diferente a padding. Padding interno, margen externo a la caja*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 0 0 10px #251102;
+    /*text-indent: para sangria
+    text-shadow: efecto copado. mejor manejarlo desde la consola
+    word-spacing: espacio entre palabras;
+    font-size: 2rem. el doble del default
+    em hace referencia al tamaño establecido por el ordenador, normalmente
+    16 px por el ordenador
+    rem hace referencia al tamaño establecido 
+    por nosotros en nuetra estructura;*/
+    
+    }
+    nav{
+        font-family: 'Inconsolata', monospace;
+        text-decoration: underline;
+        background-color:darkslategray;
+        box-shadow: 6px 2px 2px 2px grey;
+        border: 5px solid    black;
+
+    }
+      section{
+        display: grid;
+        justify-content: flex-end;
+       
+       margin-top: 30px;
+       margin-right: 30px;
+      
+
+    }
+    .foto{
+        box-shadow: 6px 2px 2px 2px grey;
+        border: 5px solid    black;
+
+
+    }
+    footer{
+      display: grid;
+      grid-template-columns:25% 25% 25% 25% ;
+      grid-template-rows: 100% 100% 100% 100%;
+      justify-content: space-between;
+      background-color:sandybrown;
+      margin-top: 30px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 60px;
+     
+      
+
+    }
+    .piso{
+        text-decoration: none;
+    }

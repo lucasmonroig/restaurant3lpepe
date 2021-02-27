@@ -1,0 +1,11 @@
+.footer{
+    display:grid;
+    grid-template-columns:  40%  60%;
+    
+    width: 100%;
+    height:100%;
+    padding-top: 10px;
+    background-color: /* #556b2f;*/ black;
+    justify-content: right;
+    margin-top: 100px;
+}

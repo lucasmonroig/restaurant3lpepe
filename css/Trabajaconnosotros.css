@@ -1,0 +1,101 @@
+body{
+    background-color: #EAEDF0;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    background-image: url('../images/fondito.jpg');
+    background-position:right;
+
+
+}
+h1{
+    
+    color: chartreuse;
+     /*diferente a padding. Padding interno, margen externo a la caja*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 0 0 10px #251102;
+    /*text-indent: para sangria
+    text-shadow: efecto copado. mejor manejarlo desde la consola
+    word-spacing: espacio entre palabras;
+    font-size: 2rem. el doble del default
+    em hace referencia al tamaño establecido por el ordenador, normalmente
+    16 px por el ordenador
+    rem hace referencia al tamaño establecido 
+    por nosotros en nuetra estructura;*/
+    
+    }
+    h2{
+        text-align: center;
+        text-decoration-line: underline;
+        margin: 10px;
+    }
+    h3{
+        text-align:center;
+    }
+    .encabezado{
+        background-color: #F6F7F8;
+        border: 2px solid #D6D9DC;
+        border-radius: 4px;
+        width:40%;
+        margin-bottom: 20px;
+
+    }
+    .general{ /* para todo el form, lo hice para encolumnar la caja por dentro*/
+        border-radius: 10px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-bottom: 15px;
+       
+      
+    }
+    form{
+        width: 400px;
+        text-align: left;
+        background-color: mediumslateblue;
+        margin-top: 5px;
+        padding-top:30px;
+        font-family: cursive;
+        border-radius: 3px;
+        text-decoration: underline;
+    }
+    
+    
+    .general label{
+        margin-bottom: 15px;
+        
+    }
+    .cuadro{ /*cuadro de texto para hablar sobre experiencia laboral*/
+        display: flex;
+        margin-top: 15px;
+        margin-left: 25px;
+        width: 90%;
+    }
+    
+    .general input{
+       margin-left: 25px;
+    }
+    .general-label{ /* para correr todos los label excepto los circulos*/
+        margin-left:25px
+    }
+    .form input  [type='submit']{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 30%;
+        
+      
+        margin-bottom: 15px;
+
+    }
+    .form input [type='reset']{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 30%;
+        
+      
+        margin-bottom: 15px;
+
+    }
